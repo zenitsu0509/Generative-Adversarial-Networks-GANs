@@ -61,7 +61,7 @@ def define_generator(image_shape=(256,256,3)):
 	e5 = define_encoder_block(e4, 512)
 	e6 = define_encoder_block(e5, 512)
 	e7 = define_encoder_block(e6, 512)
-	# bottleneck, no batch norm and relu
+	
 	b = Conv2D(512, (4,4), strides=(2,2), padding='same', kernel_initializer=init)(e7)
 	b = Activation('relu')(b)
 	# decoder model: CD512-CD512-CD512-C512-C256-C128-C64
