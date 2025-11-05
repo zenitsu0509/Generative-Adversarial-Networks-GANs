@@ -53,13 +53,3 @@ Over time, many variations of GANs have been proposed to address some of these c
 -   **WGAN (Wasserstein GAN)**: Aims to solve the instability issue by using the Wasserstein distance instead of the traditional binary cross-entropy loss.
 -   **StyleGAN**: Used to generate highly realistic images by controlling various aspects of the image style.
 
-### Applications of GANs:
-
-1.  **Image Generation**: GANs are widely used for generating realistic images from random noise (e.g., generating faces that don't exist).
-2.  **Image-to-Image Translation**: Converting one type of image to another, such as turning sketches into photorealistic images.
-3.  **Text-to-Image Synthesis**: Generating images based on textual descriptions.
-4.  **Video Generation**: GANs can be extended to generate realistic video sequences.
-5.  **Data Augmentation**: GANs are used to generate additional training data, which is useful in domains with limited data.
-6.  **Super-Resolution**: Enhancing the resolution of images.
-
-GANs have revolutionized generative modeling and continue to be an area of active research in deep learning, with applications spanning creative arts, healthcare, gaming, and more.
